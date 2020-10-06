@@ -1,0 +1,16 @@
+PODS:
+  - GMTextField (0.1.0)
+
+DEPENDENCIES:
+  - GMTextField (from `../`)
+
+EXTERNAL SOURCES:
+  GMTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GMTextField: 26ea5b691a019fcd914ed072035e081d51ccd96f
+
+PODFILE CHECKSUM: 48e42cbd19f45d60867ee747e8a98b30a7392efd
+
+COCOAPODS: 1.9.3

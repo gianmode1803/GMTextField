@@ -1,24 +1,71 @@
 //
 //  ViewController.swift
-//  GMTextField
+//  GMTextFiekd
 //
-//  Created by gianmode1803@hotmail.com on 10/06/2020.
-//  Copyright (c) 2020 gianmode1803@hotmail.com. All rights reserved.
+//  Created by Gianpiero Mode on 16/07/2020.
+//  Copyright © 2020 Gianpiero Mode. All rights reserved.
 //
 
 import UIKit
+import GMTextField
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textField: GMTextFieldSingularLine!
+    @IBOutlet weak var textView: GMTextFieldMultipleLines!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        textView.errorText = "Error, revise los datos"
+        textView.errorColor = .red
+        textView.textValidation = { text in
+            return true
+        }
+        textView.color = .brown
+        textView.leftImage = nil
+        textView.rightImage = UIImage(systemName: "location")?.withTintColor(.black)
+        textView.numberOfLines = 3
+        
+        textView.placeHolder = "Prueba1"
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // Do any additional setup after loading the view.
+        textField.placeHolder = "Prueba0"
+        textField.animationType = .scaleMinimize
+        textField.verificationOnlyAtEnd = true
+        textField.errorColor = .red
+        textField.leftImage = nil
+        textField.rightImage = UIImage(systemName: "location")?.withTintColor(.black)
+        textField.errorText = "Error, revise los datos"
+        
+        textField.textValidation = { text in
+            return false
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        textField.isHidden = true
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        textView.animate()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 }
 
