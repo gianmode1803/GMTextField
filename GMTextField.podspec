@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'GMTextField are customizable TextFields based on material design.  This pod can be helpful if you want to use a simple and easy to use TextFields with cool animations. It also have a multiline textfield.'
 
-  s.homepage         = 'https://github.com/gianmode1803@hotmail.com/GMTextField'
+  s.homepage         = 'https://github.com/gianmode1803/GMTextField.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gianmode1803@hotmail.com' => 'gianmode1803@hotmail.com' }
-  s.source           = { :git => 'https://github.com/gianmode1803@hotmail.com/GMTextField.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gianmode1803/GMTextField.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/gianmode'
 
   s.ios.deployment_target = '13.0'
