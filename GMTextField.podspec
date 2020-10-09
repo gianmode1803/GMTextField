@@ -30,7 +30,4 @@ Pod::Spec.new do |s|
 
   s.source_files = 'GMTextField/Classes/**/*'
   
-  s.resource_bundles = {
-      'GMTextField' => ['GMTextField/Assets/*.png']
-    }
 end

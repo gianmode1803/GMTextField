@@ -182,7 +182,6 @@ public class GMTextFieldMultipleLines: UIView, GMCustomization {
         rightImageView.addGestureRecognizer(rightRecognizer)
         
         textView.textContainer.maximumNumberOfLines = 5
-        #warning("Cuando llegue al limite, hacer que haga swipe")
         validation("")
     }
     
