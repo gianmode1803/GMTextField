@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GMTextField'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'GMTextField are customizable TextFields based on material design.'
 
 # This description is used to generate tags and improve search results.
@@ -29,5 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'GMTextField/Classes/**/*'
+  
+  s.swift_versions = '5.0'
   
 end
