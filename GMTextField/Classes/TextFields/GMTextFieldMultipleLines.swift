@@ -229,8 +229,9 @@ extension GMTextFieldMultipleLines {
         let animation = CABasicAnimation(keyPath: "strokeEnd")
         animation.fromValue = CGFloat(0.0)
         animation.toValue = CGFloat(1.0)
-        animation.fillMode = kCAFillModeForwards
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        animation.fillMode = CAMediaTimingFillMode.forwards
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+        
         self.storkerLayer?.removeFromSuperlayer()
         self.storkerLayer = storkeLayer
         

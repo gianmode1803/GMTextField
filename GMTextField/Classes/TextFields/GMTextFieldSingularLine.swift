@@ -396,7 +396,7 @@ extension GMTextFieldSingularLine{
     
     func shake(translation: String, values: [CGFloat]){
         let animation = CAKeyframeAnimation(keyPath: "transform.translation.\(translation)")
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animation.duration = 0.6
         animation.values = values
         self.separatorView.layer.add(animation, forKey: "shake\(translation)")
