@@ -91,7 +91,7 @@ import GMTextField
 
 6. Run the app
 
-*NOTE: This is the first version of this pod (0.2)*
+*NOTE: This is the first version of this pod (0.3)*
 
 ## Customization
 
