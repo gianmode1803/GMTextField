@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04153FF394EDE4658F66D655FD244E3E /* GMTextFieldSingularLine.xib in Sources */ = {isa = PBXBuildFile; fileRef = 759545FDB04CE1A6AB21BAD924AD29DF /* GMTextFieldSingularLine.xib */; };
-		18DD3703870AB65EA102C724CBE8EFD3 /* GMTextFieldMultipleLines.xib in Sources */ = {isa = PBXBuildFile; fileRef = 06F4AAD2EDE8A96AF929B90E6F60901B /* GMTextFieldMultipleLines.xib */; };
+		0BD9D47A6F500016EF4BCB291F8CCCF5 /* GMTextFieldSingularLineDelegate+Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979D8E896ED1C6CA80A1F3030442CE04 /* GMTextFieldSingularLineDelegate+Implementation.swift */; };
 		195BF8BDFD90F994D6774EC4BFA167DE /* Pods-GMTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13528DF2C22E2B39F59ECE0DF28AA00A /* Pods-GMTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BAE7ECD253ACF3900F6072B2AC5ABB0 /* GMTextFieldMultipleLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABA11F3ABC311F0E3D832003DBFB18C /* GMTextFieldMultipleLines.swift */; };
 		2EF20BEEA3F465299EC6973849D04396 /* Pods-GMTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 784E04DA26075EA81626807F7969599B /* Pods-GMTextField_Tests-dummy.m */; };
+		35A434831945155B41273393653FE06F /* GMTextFieldSingularLine.xib in Sources */ = {isa = PBXBuildFile; fileRef = 59E01AF1F79991D9D49915977F66880F /* GMTextFieldSingularLine.xib */; };
 		38946DC8EA0AACEF4A1C70F94A44D498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		483C4BE1E31D5170F3D5A30145820299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		53B19B7E88E54C6BDF868A5A375A9C1D /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76691B1935FC0990500FAC28FD99F455 /* AnimationType.swift */; };
-		59D3DA1BA369DBBC8F43A99A6C68E68F /* GMCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE805AD864ABD00A6CC4D34807E9AD7 /* GMCustomization.swift */; };
-		62E01255E8D24D1E29F5F46B9AFD938C /* GMTextFieldAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDBB125D488E494290755DB6C9BD220 /* GMTextFieldAnimation.swift */; };
+		43A1077DAABEC1AFF36849C17081DA04 /* GMTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F93A62FC920DB1D7FAF5A9D33B03F0E /* GMTextField-dummy.m */; };
+		4DC0B8DFCA2C9A9B33A8E1AAE5BC84AA /* GMTextFieldButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D792F3ED674607F095132D84AD86C /* GMTextFieldButton.swift */; };
+		695C8676A7C643CE041782FCB483163F /* GMTextFieldSingularLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFCC8DC53C8B5221B5DB614B268FF54 /* GMTextFieldSingularLine.swift */; };
+		69AAD13647F05A66DD64FC2045F50F5F /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC0092FC15B4307E1AA4D50BBD405F /* AnimationType.swift */; };
 		792FCB892BA2D01F5D2598C117C06997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		92562C48DF01CA35A205C80D41E99C33 /* GMTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E91E46A682C2A09F7283993E294FAA6A /* GMTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B39520B2C15144FC46FC03E673C16D8F /* GMTextFieldActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A25E6874526587D5A38879629DEB39 /* GMTextFieldActionDelegate.swift */; };
-		BDAAA6D9D9DD68517138E376BEBFB93D /* GMTextFieldButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C570F3828DBEE9E00A16768917CB1CE5 /* GMTextFieldButton.swift */; };
-		C5CCF54C85639914EF93B50AE30A8912 /* GMTextFieldSingularLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C581915617BAA6112F0321DBBAC8340 /* GMTextFieldSingularLine.swift */; };
-		C648B5F1A6384711C565781700E254AC /* UITextView+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45634E1311D025C42316B813ED944D7 /* UITextView+Lines.swift */; };
+		7F8879653F952F4804D7AA97F1EBEB20 /* GMTextFieldMultipleLinesDelegate+Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DE177CC62C2FB9A789DC34C875ACA /* GMTextFieldMultipleLinesDelegate+Implementation.swift */; };
+		81F18EFF12D3A5847A333EC38011FDDE /* GMTextFieldMultipleLines.xib in Sources */ = {isa = PBXBuildFile; fileRef = A2847C23C399FFB8472FF3A09BF44168 /* GMTextFieldMultipleLines.xib */; };
+		82D65D2133B789FC16A65CBF941CCA2C /* UITextView+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F039B7BCAEDA7BB2E99297DC496C04C6 /* UITextView+Lines.swift */; };
+		B1000940975BDF7E5845475071F76B3F /* GMTextFieldAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055F03C899ACC3551FE2F6F57FCB3B80 /* GMTextFieldAnimation.swift */; };
 		D0C2F280524152CE84E58A50EFE8ED9F /* Pods-GMTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 162FCDEC4D64CA2CA05DC785451F0BA4 /* Pods-GMTextField_Example-dummy.m */; };
-		E534C68F22DE0D7FC11B716D8508937C /* GMTextFieldMultipleLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B5E4E35FF6F3E945CABE4F94B930C8 /* GMTextFieldMultipleLines.swift */; };
-		F5F7D9122B9C86D0054DAB2EF7DA6B0F /* GMTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58522C48318C6E50E483D2E9605A16E9 /* GMTextField-dummy.m */; };
+		EB7E8D5DAE3B85E3EF58A7C40840FF76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		F7A7E3C96D33E3E5DCB648C11D654B89 /* Pods-GMTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D80904625F08F2F50B35EE2A75521D2 /* Pods-GMTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7EB430E5D22007B6CFDF0F408945B0B /* GMTextFieldActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A04014947F7B44FC1A7FF34F660C74A /* GMTextFieldActionDelegate.swift */; };
+		F8E6AECAE307398BDA3AFEEFC936324F /* GMCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E54D7B8BFBE10BB43AA10265DA3728A /* GMCustomization.swift */; };
+		FF7A9517603FE550A1CB2FC3AE088E29 /* GMTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F72E1D1EACD6A03642E9E04DF25E9A14 /* GMTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,48 +48,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D1B60A59E6B65DB8472D46A9368ED8 /* GMTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMTextField.release.xcconfig; sourceTree = "<group>"; };
-		06F4AAD2EDE8A96AF929B90E6F60901B /* GMTextFieldMultipleLines.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GMTextFieldMultipleLines.xib; sourceTree = "<group>"; };
+		055F03C899ACC3551FE2F6F57FCB3B80 /* GMTextFieldAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldAnimation.swift; sourceTree = "<group>"; };
 		0EB0CCAF203BE79FFEDA55DC76F1F8E8 /* Pods-GMTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F70E959CDE8F5943A3870591E345D9B /* GMTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F70E959CDE8F5943A3870591E345D9B /* GMTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMTextField.framework; path = GMTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F93A62FC920DB1D7FAF5A9D33B03F0E /* GMTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMTextField-dummy.m"; sourceTree = "<group>"; };
 		13528DF2C22E2B39F59ECE0DF28AA00A /* Pods-GMTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		162FCDEC4D64CA2CA05DC785451F0BA4 /* Pods-GMTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		1EE805AD864ABD00A6CC4D34807E9AD7 /* GMCustomization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMCustomization.swift; sourceTree = "<group>"; };
-		310143462D6ED40F2596A1794AAE9729 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34BFEB0084CC6F4C57F405B203362D89 /* GMTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMTextField.modulemap; sourceTree = "<group>"; };
+		359B3AE6EDFA9DC087B60DAC68CACBA4 /* GMTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMTextField-Info.plist"; sourceTree = "<group>"; };
+		3D6F03049420CA28B65E1F531896171A /* GMTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GMTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47C607F875AEAE501C288147405D3627 /* Pods-GMTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMTextField_Tests-Info.plist"; sourceTree = "<group>"; };
 		481C53ED68E27539AFF107DA8CDDB8F3 /* Pods-GMTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4B013BF936F94E17FC28DC4727291EF6 /* Pods-GMTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		55B44B91E97237F1A5AF0F7A07BA1298 /* Pods_GMTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58522C48318C6E50E483D2E9605A16E9 /* GMTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMTextField-dummy.m"; sourceTree = "<group>"; };
-		5BE7C6607FB3B5ADAA4B7B4C00FF99E6 /* GMTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMTextField.modulemap; sourceTree = "<group>"; };
+		55B44B91E97237F1A5AF0F7A07BA1298 /* Pods_GMTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMTextField_Tests.framework; path = "Pods-GMTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E01AF1F79991D9D49915977F66880F /* GMTextFieldSingularLine.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GMTextFieldSingularLine.xib; sourceTree = "<group>"; };
 		5D80904625F08F2F50B35EE2A75521D2 /* Pods-GMTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		6C581915617BAA6112F0321DBBAC8340 /* GMTextFieldSingularLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldSingularLine.swift; sourceTree = "<group>"; };
+		6BAC0092FC15B4307E1AA4D50BBD405F /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		6E54D7B8BFBE10BB43AA10265DA3728A /* GMCustomization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMCustomization.swift; sourceTree = "<group>"; };
 		7284D87C8507D1B377F50233800E7C1B /* Pods-GMTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		759545FDB04CE1A6AB21BAD924AD29DF /* GMTextFieldSingularLine.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GMTextFieldSingularLine.xib; sourceTree = "<group>"; };
-		76691B1935FC0990500FAC28FD99F455 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
 		784E04DA26075EA81626807F7969599B /* Pods-GMTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMTextField_Tests-dummy.m"; sourceTree = "<group>"; };
-		90DB6965F87A8DC4F99776326B898C87 /* GMTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMTextField.debug.xcconfig; sourceTree = "<group>"; };
+		7A04014947F7B44FC1A7FF34F660C74A /* GMTextFieldActionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldActionDelegate.swift; sourceTree = "<group>"; };
+		7D7D792F3ED674607F095132D84AD86C /* GMTextFieldButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldButton.swift; sourceTree = "<group>"; };
 		91DED4E0A2CB36F76308821A72988642 /* Pods-GMTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93BB0E75E5AB2A227B633A6361D0983D /* GMTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMTextField.release.xcconfig; sourceTree = "<group>"; };
 		93BB72AD8AE135C90496FAA927FE5118 /* Pods-GMTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		979D8E896ED1C6CA80A1F3030442CE04 /* GMTextFieldSingularLineDelegate+Implementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GMTextFieldSingularLineDelegate+Implementation.swift"; sourceTree = "<group>"; };
+		983AC2BD474E30725731EF1E68DF0AEB /* GMTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMTextField.debug.xcconfig; sourceTree = "<group>"; };
 		991036EA4C9A49544CDCDC7ED3086DDE /* Pods-GMTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6A25E6874526587D5A38879629DEB39 /* GMTextFieldActionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldActionDelegate.swift; sourceTree = "<group>"; };
-		B2B85601450D92EDDC1C5C2B869EB21C /* GMTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTextField-prefix.pch"; sourceTree = "<group>"; };
-		B45634E1311D025C42316B813ED944D7 /* UITextView+Lines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Lines.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2847C23C399FFB8472FF3A09BF44168 /* GMTextFieldMultipleLines.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = GMTextFieldMultipleLines.xib; sourceTree = "<group>"; };
+		A2EE7D8B27412D0786F6FF262CB66896 /* GMTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTextField-prefix.pch"; sourceTree = "<group>"; };
+		B55DE177CC62C2FB9A789DC34C875ACA /* GMTextFieldMultipleLinesDelegate+Implementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GMTextFieldMultipleLinesDelegate+Implementation.swift"; sourceTree = "<group>"; };
 		B72C017C5BE5CDC6F1DD2BDBA92852F0 /* Pods-GMTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BB402F56CB6CAC6AA9990AC95A5B2DEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C30CF24460348AEF8EB8862F74E9F068 /* Pods_GMTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C356A36AD2FF36E8B797DCD5B947C800 /* GMTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GMTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAFCC8DC53C8B5221B5DB614B268FF54 /* GMTextFieldSingularLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldSingularLine.swift; sourceTree = "<group>"; };
+		C30CF24460348AEF8EB8862F74E9F068 /* Pods_GMTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMTextField_Example.framework; path = "Pods-GMTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39747DE9A6641422EBF77EAA996E07C /* Pods-GMTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMTextField_Example.modulemap"; sourceTree = "<group>"; };
-		C570F3828DBEE9E00A16768917CB1CE5 /* GMTextFieldButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldButton.swift; sourceTree = "<group>"; };
+		D03763C4CBCDD064BD798F20FDE737C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D06D1C6F88EFA46BDAB3D1E231AEE60E /* Pods-GMTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMTextField_Tests.modulemap"; sourceTree = "<group>"; };
 		D62AB8C67EA4C48B3B50BB6C3E2D646D /* Pods-GMTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMTextField_Example-Info.plist"; sourceTree = "<group>"; };
-		E91E46A682C2A09F7283993E294FAA6A /* GMTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTextField-umbrella.h"; sourceTree = "<group>"; };
-		E9B5E4E35FF6F3E945CABE4F94B930C8 /* GMTextFieldMultipleLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldMultipleLines.swift; sourceTree = "<group>"; };
+		E4E346BB888F7BFE60C6CD4A1764F118 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EBEB36BA1DA1A946F03FCB402D799DC7 /* Pods-GMTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EDDBB125D488E494290755DB6C9BD220 /* GMTextFieldAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldAnimation.swift; sourceTree = "<group>"; };
-		EE5869F38F584A8E75B51B78B26E0E1C /* GMTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMTextField-Info.plist"; sourceTree = "<group>"; };
+		F039B7BCAEDA7BB2E99297DC496C04C6 /* UITextView+Lines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Lines.swift"; sourceTree = "<group>"; };
+		F72E1D1EACD6A03642E9E04DF25E9A14 /* GMTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMTextField-umbrella.h"; sourceTree = "<group>"; };
+		FABA11F3ABC311F0E3D832003DBFB18C /* GMTextFieldMultipleLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GMTextFieldMultipleLines.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,14 +103,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A984BD0BBADAA3BE5BF780CAB632E1C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				483C4BE1E31D5170F3D5A30145820299 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C18D3E2A5923DA03A265BB1B6DDEE75D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,24 +111,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6CC8129C66F47EBDCAA2E28ADC391F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E8D5DAE3B85E3EF58A7C40840FF76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0499C24790BC6E1F80D1FBB7A9264824 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5BE7C6607FB3B5ADAA4B7B4C00FF99E6 /* GMTextField.modulemap */,
-				58522C48318C6E50E483D2E9605A16E9 /* GMTextField-dummy.m */,
-				EE5869F38F584A8E75B51B78B26E0E1C /* GMTextField-Info.plist */,
-				B2B85601450D92EDDC1C5C2B869EB21C /* GMTextField-prefix.pch */,
-				E91E46A682C2A09F7283993E294FAA6A /* GMTextField-umbrella.h */,
-				90DB6965F87A8DC4F99776326B898C87 /* GMTextField.debug.xcconfig */,
-				06D1B60A59E6B65DB8472D46A9368ED8 /* GMTextField.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GMTextField";
-			sourceTree = "<group>";
-		};
 		0C1D5DA434C3995C6CD41D1EC2858C89 /* Pods-GMTextField_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,25 +155,17 @@
 			path = "Target Support Files/Pods-GMTextField_Example";
 			sourceTree = "<group>";
 		};
-		10F443F82DFF3748D4EBD32A23401633 /* Extensions */ = {
+		2AEB24A78449B473DF11C242AC0689DB /* GMTextField */ = {
 			isa = PBXGroup;
 			children = (
-				B45634E1311D025C42316B813ED944D7 /* UITextView+Lines.swift */,
+				C377EB3B6314E23F546F006DC0A838E5 /* Extensions */,
+				EFBDED7E0C97793EA78559C2F3680233 /* Model */,
+				75665925603E757CDB437E0DD40823C4 /* Pod */,
+				EA6AA94E5301F2FA10AF2F900D39B6FF /* Support Files */,
+				44053211DECE759A1E1DD21EE48A9BC0 /* TextFields */,
 			);
-			name = Extensions;
-			path = GMTextField/Classes/Extensions;
-			sourceTree = "<group>";
-		};
-		2737B41004FC42BB1A120784BE746416 /* TextFields */ = {
-			isa = PBXGroup;
-			children = (
-				E9B5E4E35FF6F3E945CABE4F94B930C8 /* GMTextFieldMultipleLines.swift */,
-				06F4AAD2EDE8A96AF929B90E6F60901B /* GMTextFieldMultipleLines.xib */,
-				6C581915617BAA6112F0321DBBAC8340 /* GMTextFieldSingularLine.swift */,
-				759545FDB04CE1A6AB21BAD924AD29DF /* GMTextFieldSingularLine.xib */,
-			);
-			name = TextFields;
-			path = GMTextField/Classes/TextFields;
+			name = GMTextField;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3027565D7E3691BF5AE5C2F42123A249 /* Targets Support Files */ = {
@@ -196,25 +177,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4B92A08AF37F92038CE31EB308D09A1E /* GMTextField */ = {
+		44053211DECE759A1E1DD21EE48A9BC0 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
-				10F443F82DFF3748D4EBD32A23401633 /* Extensions */,
-				D7D9E1B7B314A03AD6FC6501281B6E47 /* Model */,
-				4BA1FD3F92EE70288DBB71826E0C0104 /* Pod */,
-				0499C24790BC6E1F80D1FBB7A9264824 /* Support Files */,
-				2737B41004FC42BB1A120784BE746416 /* TextFields */,
+				FABA11F3ABC311F0E3D832003DBFB18C /* GMTextFieldMultipleLines.swift */,
+				A2847C23C399FFB8472FF3A09BF44168 /* GMTextFieldMultipleLines.xib */,
+				BAFCC8DC53C8B5221B5DB614B268FF54 /* GMTextFieldSingularLine.swift */,
+				59E01AF1F79991D9D49915977F66880F /* GMTextFieldSingularLine.xib */,
 			);
-			name = GMTextField;
-			path = ../..;
+			name = TextFields;
+			path = GMTextField/Classes/TextFields;
 			sourceTree = "<group>";
 		};
-		4BA1FD3F92EE70288DBB71826E0C0104 /* Pod */ = {
+		75665925603E757CDB437E0DD40823C4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C356A36AD2FF36E8B797DCD5B947C800 /* GMTextField.podspec */,
-				BB402F56CB6CAC6AA9990AC95A5B2DEF /* LICENSE */,
-				310143462D6ED40F2596A1794AAE9729 /* README.md */,
+				3D6F03049420CA28B65E1F531896171A /* GMTextField.podspec */,
+				D03763C4CBCDD064BD798F20FDE737C7 /* LICENSE */,
+				E4E346BB888F7BFE60C6CD4A1764F118 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -222,7 +202,7 @@
 		9BA9B7ABFF7B8BC62E9B5A7BE76CAF9C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B92A08AF37F92038CE31EB308D09A1E /* GMTextField */,
+				2AEB24A78449B473DF11C242AC0689DB /* GMTextField */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -233,6 +213,17 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C377EB3B6314E23F546F006DC0A838E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B55DE177CC62C2FB9A789DC34C875ACA /* GMTextFieldMultipleLinesDelegate+Implementation.swift */,
+				979D8E896ED1C6CA80A1F3030442CE04 /* GMTextFieldSingularLineDelegate+Implementation.swift */,
+				F039B7BCAEDA7BB2E99297DC496C04C6 /* UITextView+Lines.swift */,
+			);
+			name = Extensions;
+			path = GMTextField/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -254,19 +245,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7D9E1B7B314A03AD6FC6501281B6E47 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				76691B1935FC0990500FAC28FD99F455 /* AnimationType.swift */,
-				1EE805AD864ABD00A6CC4D34807E9AD7 /* GMCustomization.swift */,
-				A6A25E6874526587D5A38879629DEB39 /* GMTextFieldActionDelegate.swift */,
-				EDDBB125D488E494290755DB6C9BD220 /* GMTextFieldAnimation.swift */,
-				C570F3828DBEE9E00A16768917CB1CE5 /* GMTextFieldButton.swift */,
-			);
-			name = Model;
-			path = GMTextField/Classes/Model;
-			sourceTree = "<group>";
-		};
 		DD958CA05FBC77608CB71B2D83AB5509 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -277,9 +255,45 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EA6AA94E5301F2FA10AF2F900D39B6FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34BFEB0084CC6F4C57F405B203362D89 /* GMTextField.modulemap */,
+				0F93A62FC920DB1D7FAF5A9D33B03F0E /* GMTextField-dummy.m */,
+				359B3AE6EDFA9DC087B60DAC68CACBA4 /* GMTextField-Info.plist */,
+				A2EE7D8B27412D0786F6FF262CB66896 /* GMTextField-prefix.pch */,
+				F72E1D1EACD6A03642E9E04DF25E9A14 /* GMTextField-umbrella.h */,
+				983AC2BD474E30725731EF1E68DF0AEB /* GMTextField.debug.xcconfig */,
+				93BB0E75E5AB2A227B633A6361D0983D /* GMTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GMTextField";
+			sourceTree = "<group>";
+		};
+		EFBDED7E0C97793EA78559C2F3680233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BAC0092FC15B4307E1AA4D50BBD405F /* AnimationType.swift */,
+				6E54D7B8BFBE10BB43AA10265DA3728A /* GMCustomization.swift */,
+				7A04014947F7B44FC1A7FF34F660C74A /* GMTextFieldActionDelegate.swift */,
+				055F03C899ACC3551FE2F6F57FCB3B80 /* GMTextFieldAnimation.swift */,
+				7D7D792F3ED674607F095132D84AD86C /* GMTextFieldButton.swift */,
+			);
+			name = Model;
+			path = GMTextField/Classes/Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		078F45D3AEC7DF28E492FA1E86569275 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7A9517603FE550A1CB2FC3AE088E29 /* GMTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C1C2F54C0BB2D370007CE0114409B77 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,14 +307,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				195BF8BDFD90F994D6774EC4BFA167DE /* Pods-GMTextField_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FCD331CF5845A1FFEC22A8E7D977C2BE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92562C48DF01CA35A205C80D41E99C33 /* GMTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +353,12 @@
 		};
 		8A72AE8C564A196AB1109A44340ADBAF /* GMTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 141189D9D1C1CCDB863B657B286B941F /* Build configuration list for PBXNativeTarget "GMTextField" */;
+			buildConfigurationList = AAB4A9A6479A4697BF7B9959BF30E348 /* Build configuration list for PBXNativeTarget "GMTextField" */;
 			buildPhases = (
-				FCD331CF5845A1FFEC22A8E7D977C2BE /* Headers */,
-				24D524C9FF2FFB531E12F0DCDE0ABEFE /* Sources */,
-				A984BD0BBADAA3BE5BF780CAB632E1C7 /* Frameworks */,
-				7CAE860BFB77EDA47502136E37FCB457 /* Resources */,
+				078F45D3AEC7DF28E492FA1E86569275 /* Headers */,
+				ED8EBB9D5746BDD3818EF769C86CDDF4 /* Sources */,
+				F6CC8129C66F47EBDCAA2E28ADC391F2 /* Frameworks */,
+				9FCD5BD7B47DF532E5CB4D761F1FD41A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -407,7 +413,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CAE860BFB77EDA47502136E37FCB457 /* Resources */ = {
+		9FCD5BD7B47DF532E5CB4D761F1FD41A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,24 +423,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24D524C9FF2FFB531E12F0DCDE0ABEFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				53B19B7E88E54C6BDF868A5A375A9C1D /* AnimationType.swift in Sources */,
-				59D3DA1BA369DBBC8F43A99A6C68E68F /* GMCustomization.swift in Sources */,
-				F5F7D9122B9C86D0054DAB2EF7DA6B0F /* GMTextField-dummy.m in Sources */,
-				B39520B2C15144FC46FC03E673C16D8F /* GMTextFieldActionDelegate.swift in Sources */,
-				62E01255E8D24D1E29F5F46B9AFD938C /* GMTextFieldAnimation.swift in Sources */,
-				BDAAA6D9D9DD68517138E376BEBFB93D /* GMTextFieldButton.swift in Sources */,
-				E534C68F22DE0D7FC11B716D8508937C /* GMTextFieldMultipleLines.swift in Sources */,
-				18DD3703870AB65EA102C724CBE8EFD3 /* GMTextFieldMultipleLines.xib in Sources */,
-				C5CCF54C85639914EF93B50AE30A8912 /* GMTextFieldSingularLine.swift in Sources */,
-				04153FF394EDE4658F66D655FD244E3E /* GMTextFieldSingularLine.xib in Sources */,
-				C648B5F1A6384711C565781700E254AC /* UITextView+Lines.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		617F5895FC933A1158D69213BFC36058 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,6 +436,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EF20BEEA3F465299EC6973849D04396 /* Pods-GMTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8EBB9D5746BDD3818EF769C86CDDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AAD13647F05A66DD64FC2045F50F5F /* AnimationType.swift in Sources */,
+				F8E6AECAE307398BDA3AFEEFC936324F /* GMCustomization.swift in Sources */,
+				43A1077DAABEC1AFF36849C17081DA04 /* GMTextField-dummy.m in Sources */,
+				F7EB430E5D22007B6CFDF0F408945B0B /* GMTextFieldActionDelegate.swift in Sources */,
+				B1000940975BDF7E5845475071F76B3F /* GMTextFieldAnimation.swift in Sources */,
+				4DC0B8DFCA2C9A9B33A8E1AAE5BC84AA /* GMTextFieldButton.swift in Sources */,
+				2BAE7ECD253ACF3900F6072B2AC5ABB0 /* GMTextFieldMultipleLines.swift in Sources */,
+				81F18EFF12D3A5847A333EC38011FDDE /* GMTextFieldMultipleLines.xib in Sources */,
+				7F8879653F952F4804D7AA97F1EBEB20 /* GMTextFieldMultipleLinesDelegate+Implementation.swift in Sources */,
+				695C8676A7C643CE041782FCB483163F /* GMTextFieldSingularLine.swift in Sources */,
+				35A434831945155B41273393653FE06F /* GMTextFieldSingularLine.xib in Sources */,
+				0BD9D47A6F500016EF4BCB291F8CCCF5 /* GMTextFieldSingularLineDelegate+Implementation.swift in Sources */,
+				82D65D2133B789FC16A65CBF941CCA2C /* UITextView+Lines.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,7 +530,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -600,11 +609,12 @@
 			};
 			name = Release;
 		};
-		47ED271F29ED4435B8443C33C0A9EEEE /* Debug */ = {
+		48F7381E53CDE7C4923FB070E8A97869 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90DB6965F87A8DC4F99776326B898C87 /* GMTextField.debug.xcconfig */;
+			baseConfigurationReference = 983AC2BD474E30725731EF1E68DF0AEB /* GMTextField.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -667,39 +677,6 @@
 			};
 			name = Debug;
 		};
-		6C5E247C607E569BEC7A808A9C4F9CF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06D1B60A59E6B65DB8472D46A9368ED8 /* GMTextField.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GMTextField/GMTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GMTextField/GMTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GMTextField/GMTextField.modulemap";
-				PRODUCT_MODULE_NAME = GMTextField;
-				PRODUCT_NAME = GMTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		849F6D24539EB1D5F6406626B6175339 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B013BF936F94E17FC28DC4727291EF6 /* Pods-GMTextField_Example.debug.xcconfig */;
@@ -734,6 +711,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9E3578BAB136EDA285E5553AF8A92518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BB0E75E5AB2A227B633A6361D0983D /* GMTextField.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GMTextField/GMTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMTextField/GMTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GMTextField/GMTextField.modulemap";
+				PRODUCT_MODULE_NAME = GMTextField;
+				PRODUCT_NAME = GMTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -802,15 +813,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		141189D9D1C1CCDB863B657B286B941F /* Build configuration list for PBXNativeTarget "GMTextField" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47ED271F29ED4435B8443C33C0A9EEEE /* Debug */,
-				6C5E247C607E569BEC7A808A9C4F9CF5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -825,6 +827,15 @@
 			buildConfigurations = (
 				849F6D24539EB1D5F6406626B6175339 /* Debug */,
 				3BAE15A953A9C5AE23FD963FBA3224FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB4A9A6479A4697BF7B9959BF30E348 /* Build configuration list for PBXNativeTarget "GMTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F7381E53CDE7C4923FB070E8A97869 /* Debug */,
+				9E3578BAB136EDA285E5553AF8A92518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

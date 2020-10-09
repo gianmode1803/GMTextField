@@ -25,17 +25,8 @@ class ViewController: UIViewController {
         textView.color = .brown
         textView.leftImage = nil
         textView.rightImage = UIImage(systemName: "location")?.withTintColor(.black)
-        textView.numberOfLines = 3
         
         textView.placeHolder = "Prueba1"
-        
-        
-        
-        
-        
-        
-        
-        
         
         // Do any additional setup after loading the view.
         textField.placeHolder = "Prueba0"
@@ -49,15 +40,6 @@ class ViewController: UIViewController {
         textField.textValidation = { text in
             return false
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         textField.isHidden = true
     }
