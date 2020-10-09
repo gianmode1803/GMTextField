@@ -2,6 +2,8 @@
 
 If you like this pod, please give me a ★ at the top right of the page!
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Overview
 
 GMTextField are customizable TextFields based on material design.  This pod can be helpful if you want to use a simple and easy to use TextFields with cool animations. It also have a multiline textfield.
