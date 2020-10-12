@@ -46,7 +46,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Installation
 
 ### Cocoapods
-To integrate GMCalendar into your Xcode project using CocoaPods, you have to specify it in your  `Podfile` :
+To integrate GMTextField into your Xcode project using CocoaPods, you have to specify it in your  `Podfile` :
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -126,4 +126,4 @@ Linkedln: www.linkedin.com/in/gianpiero-mode-a001b6a7
 
 ## License
 
-GMCalendar is available under the MIT license. See the LICENSE file for more info.
+GMTextField is available under the MIT license. See the LICENSE file for more info.
